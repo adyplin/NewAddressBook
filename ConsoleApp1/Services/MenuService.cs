@@ -86,6 +86,7 @@ public class MenuService : IMenuService
         Console.Write("\nEnter First name: ");
         contact.FirstName = Console.ReadLine()!;
 
+
         Console.Write("\nEnter Last name: ");
         contact.LastName = Console.ReadLine()!;
 
@@ -104,7 +105,7 @@ public class MenuService : IMenuService
         Console.Write("\nEnter Postal code: ");
         contact.PostalCode = Console.ReadLine()!;
 
-       var res = _contactService.AddContactToList(contact);
+        var res = _contactService.AddContactToList(contact);
 
         switch(res.Status)
         {
