@@ -1,5 +1,4 @@
-﻿using ConsoleApp1.Models;
-using ConsoleApp1.Models.Responses;
+﻿
 
 namespace ConsoleApp1.Interfaces
 {
